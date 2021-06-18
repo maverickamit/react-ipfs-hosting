@@ -2,6 +2,7 @@ import { makeAutoObservable } from "mobx";
 
 export class UserStore {
   storageValue = "";
+  isLoading = false;
 
   constructor() {
     makeAutoObservable(this);
@@ -9,5 +10,8 @@ export class UserStore {
 
   setStorageValue(storageValue) {
     this.storageValue = storageValue;
+  }
+  setIsLoading(isLoading) {
+    this.isLoading = isLoading;
   }
 }
