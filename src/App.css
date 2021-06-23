@@ -1,0 +1,8 @@
+.app {
+  min-height: 100vh;
+  padding-bottom: 5%;
+}
+
+.text-light {
+  color: gainsboro !important;
+}

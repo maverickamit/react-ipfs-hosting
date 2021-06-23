@@ -1,0 +1,7 @@
+.btn {
+  margin: 2% !important;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
