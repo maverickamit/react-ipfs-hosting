@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import "mobx-react/batchingForReactDom";
 import { UserStore } from "./store";
 const userStore = new UserStore();
 ReactDOM.render(<App userStore={userStore} />, document.getElementById("root"));
